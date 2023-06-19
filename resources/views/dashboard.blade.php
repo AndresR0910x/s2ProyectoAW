@@ -8,7 +8,7 @@
         <meta name="author" content="" />
         <title>Analytika Women</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="{{asset('assets/assets/favicon.ico')}}" />
+        <link rel="icon" type="image/x-icon" href="{{asset('assets/assets/img_aw/logo.png')}}" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -16,6 +16,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{asset('assets/css/styles.css')}}" rel="stylesheet" />
+        <!-- <link rel="icon" type="" href="{{asset('assets/assets/img_aw/logo.png')}}"> --> 
+        
+
+
     </head>
     <body id="page-top">
 
@@ -132,14 +136,61 @@
                 Somos multifacéticas y creemos que la
                 mujer está preparada para hacer que
                 las cosas sucedan.
+                </p><br> 
+                <p class="masthead-subheading font-weight-light mb-0">
+                 Transformamos datos en información, para la toma de decisiones.<br>
+                AnalytikaWomen
                 </p>
             </div>
         </header>
-        <!-- Portfolio Section-->
+         <!-- Visiòn home -->
+         <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="{{asset('assets/assets/img_aw/splash.jpg')}}" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Visiòn</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">
+                Ser una compañía ecuatoriana referente en el ámbito de la investigación financiera, económica, social 
+                y política, aportando al bienestar y desarrollo humano, cumpliendo estándares de calidad, buenas prácticas 
+                y aplicando metodologías innovadoras en la investigación y análisis de información.
+                </p>
+            </div>
+        </header>
+         <!-- Misiòn home -->
+         <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="{{asset('assets/assets/img_aw/splash.jpg')}}" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Misiòn</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">
+                Transformar data en información mediante conceptos innovadores y ágiles, para que las organizaciones e 
+                instituciones públicas y privadas, cuenten con las mejores soluciones en la toma de decisiones a nivel 
+                técnico, económico, político y social; considerando enfoques de tipo intergeneracional, intersectorial, 
+                intercultural, ambiental, de género y movilidad.
+                </p>
+            </div>
+        </header>
+        <!-- Visiòn Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Bolsa de empleo</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">VISIÓN</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -155,12 +206,16 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="{{asset('assets/assets/img/portfolio/safe.pn')}}g" alt="..." />
-                        </div>
+                            <!-- <img class="img-fluid" src="{{asset('assets/assets/img_aw/splash.jpg')}}g" alt="..." /> -->
+                            <img class="masthead-avatar mb-5" src="{{asset('assets/assets/img_aw/logo.png')}}" alt="..." />
+                        </div> 
+                        <p><br>Ser una compañía ecuatoriana referente en el ámbito de la investigación financiera, económica, social y política, 
+                        aportando al bienestar y desarrollo humano, cumpliendo estándares de calidad, buenas prácticas y aplicando metodologías
+                        innovadoras en la investigación y análisis de información.</p>
                     </div>
-                    
-                    
-                </div>
+                </div> 
+               
+                
             </div>
         </section>
         <!-- About Section-->
