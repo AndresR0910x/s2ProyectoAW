@@ -1,8 +1,6 @@
 @extends('adminlte::page')
 
-
 @section('title', 'AnalyticaW')
-
 
 @section('content')
 <h1>Operaciones</h1>
