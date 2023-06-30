@@ -2,7 +2,6 @@
 
 @section('title', 'AnalyticaW')
 
-
 @section('content')
 <h1>Operaciones</h1>
 <div class="container">
@@ -214,6 +213,3 @@
 
   </script> 
 
-
-
-@stop 
