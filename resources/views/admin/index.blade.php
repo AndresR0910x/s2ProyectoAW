@@ -1,3 +1,4 @@
+
 @extends('adminlte::page')
 
 @section('title', 'AnalyticaW')
@@ -18,17 +19,17 @@
     <div>
         <div class="card bg-primary" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Contactos registrados: <?= $dataContactos+1 ?></h5>
+                <h5 class="card-title">Horarios Cursos: <?= $dataHorariosCursos+1 ?></h5>
             </div>
         </div>
         <div class="card bg-success" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Total bolsa de empleos: <?= $dataBE ?></h5>
+                <h5 class="card-title">Total de Eventos: <?= $dataEvento ?></h5>
             </div>
         </div>
         <div class="card bg-secondary" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Lideres: <?= $dataEL ?></h5>
+                <h5 class="card-title">Horarios Empleos: <?= $dataHoraiosEmpleos ?></h5>
             </div>
         </div>
     </div>
@@ -74,7 +75,7 @@
                 type: 'pie'
             },
             title: {
-                text: 'Empleos',
+                text: 'Horarios Cursos',
                 align: 'left'
             },
             tooltip: {
